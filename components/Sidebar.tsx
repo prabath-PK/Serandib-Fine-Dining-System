@@ -12,7 +12,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
     { icon: ShoppingCart, label: 'New Order', id: 'New Order' },
     { icon: Receipt, label: 'Table Bills', id: 'Table Bills' },
     { icon: History, label: 'Bill History', id: 'Bill History' },
-    { icon: FileText, label: 'Day Report', id: 'Day Report' },
+    { icon: FileText, label: 'Report', id: 'Report' },
     { icon: Settings, label: 'Settings', id: 'Settings' },
   ];
 

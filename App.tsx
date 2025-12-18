@@ -8,6 +8,8 @@ import TableManagement from './components/modals/TableManagement';
 import ModifierModal from './components/modals/ModifierModal';
 import SummaryDashboard from './components/SummaryDashboard';
 import TableBills from './components/TableBills';
+import BillHistory from './components/BillHistory';
+import Reports from './components/Reports';
 
 import { Category, MenuItem, OrderItem, Room } from './types';
 import { MENU_ITEMS, ROOMS } from './constants';
@@ -171,6 +173,10 @@ const App: React.FC = () => {
            />
         ) : activeTab === 'Table Bills' ? (
            <TableBills />
+        ) : activeTab === 'Bill History' ? (
+           <BillHistory />
+        ) : activeTab === 'Report' ? (
+           <Reports />
         ) : activeTab === 'New Order' ? (
           <div className="flex-1 flex overflow-hidden bg-slate-900/50">
             
